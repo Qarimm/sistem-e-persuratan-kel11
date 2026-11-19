@@ -1,1 +1,2 @@
 <?php class SuratKeluar { public function simpanSuratKeluar($nomorSurat, $perihal, $fileLampiran) { if (empty($nomorSurat) || empty($perihal)) return 'Nomor surat dan perihal wajib diisi'; if ($fileLampiran['ext'] !== 'pdf') return 'Lampiran harus berformat PDF'; if ($fileLampiran['size'] > 2048000) return 'Ukuran file maksimal 2MB'; return 'Surat keluar berhasil diajukan'; } } ?>
+<?// Modul Surat Keluar & Arsip - Yunus Robani (202343501292)
